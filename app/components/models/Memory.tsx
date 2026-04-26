@@ -37,7 +37,8 @@ type GLTFResult = GLTF & {
 }
 
 export function Memory(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('models/dalithe_persistence_of_memory.glb') as unknown as GLTFResult
+  const gltf = useGLTF('models/dalithe_persistence_of_memory.glb') as unknown as GLTFResult;
+  const { nodes, materials } = gltf;
   return (
     <group {...props} dispose={null}>
       <mesh castShadow receiveShadow geometry={nodes['Extract2_04_-_Default_0'].geometry} material={materials['04_-_Default']} scale={0.021} />
