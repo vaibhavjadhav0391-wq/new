@@ -14,12 +14,12 @@ const vercettiFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vaibhav Virli ✌️",
+  title: "Vaibhav",
   description: "A frontend developer by profession, a creative at heart.",
-  keywords: "Vaibhav Virli, Frontend Engineer, React Developer, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
-  authors: [{ name: "Vaibhav Virli" }],
-  creator: "Vaibhav Virli",
-  publisher: "Vaibhav Virli",
+  keywords: "Vaibhav, Frontend Engineer, React Developer, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
+  authors: [{ name: "Vaibhav" }],
+  creator: "Vaibhav",
+  publisher: "Vaibhav",
   formatDetection: {
     email: false,
     address: false,
@@ -36,16 +36,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Vaibhav Virli - Frontend Engineer",
+    title: "Vaibhav",
     description: "Frontend engineer by profession, creative at heart.",
     url: "https://vaibhavvirli.github.io",
-    siteName: "Vaibhav Virli's Portfolio",
+    siteName: "Vaibhav's Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vaibhav Virli - Frontend Engineer",
+    title: "Vaibhav",
     description: "Frontend engineer by profession, creative at heart.",
   },
   verification: {
